@@ -1,0 +1,5 @@
+mutation insertServiceDetail($objects: [service_detail_insert_input!] = {}) {
+  insert_service_detail(objects: $objects) {
+    affected_rows
+  }
+}

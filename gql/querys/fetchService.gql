@@ -1,0 +1,7 @@
+query get_services {
+  services {
+    name_en
+    name_la
+    service_id
+  }
+}

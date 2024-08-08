@@ -1,0 +1,25 @@
+# fetchFacilities.gql
+
+query get_facilities {
+  facilities {
+    fac_id
+    fac_type_id
+    name
+    village
+    district
+    province
+    contact_info
+    Latitude
+    Longitude
+    status
+    rating_count
+    user_id
+    facility_type {
+      name_en
+      name_la
+      sub_type
+    }
+  }
+}
+
+
